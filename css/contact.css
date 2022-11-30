@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Alexandria&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Alexandria, sans-serif;
+    font-size: 1.1rem;
+    background-color: #2A2B2F;
+    color: white;
+    line-height: 1.5em;
+}
+#container{
+    margin: 0 5vw;
+    display: flex;
+    gap: 20vw;
+}
+#container div{
+    width: 50vw;
+    height: 100vh;
+}
+#logo{
+    display: flex;
+    overflow-y: hidden;
+    flex-direction: column;
+    justify-content: center;
+}
+#contact-info{
+    display:flex;
+    flex-direction: column;
+    gap: 1em;
+    justify-content: center;
+    align-content: center;
+}
+#connect{
+    font-size: 2em;
+    font-weight: 700;
+}
+#social-links{
+    list-style: none;
+    display: flex;
+    gap: 1em;
+}
+.icon{
+    width: 1.5em;
+}
