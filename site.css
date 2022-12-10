@@ -1,0 +1,86 @@
+* {
+    margin: 0;
+    border: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+div#links {
+    position: absolute;
+    right: 15px;
+    padding: 20px;
+    font-size: 1.3em;
+   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
+}
+
+.img {
+    width: 250px;
+    padding: 30px;
+    margin-right: 50px;
+    position: relative;
+  
+}
+
+nav {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    background-color: black;
+    margin: 15px;
+    text-transform: capitalize;
+    width: 0px;
+    border-radius: 20%;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+
+p {
+    text-align: left;
+    padding: 20px;
+    font-size: 5em;
+    font-weight: 700;
+
+}
+
+.photo {
+    width: 500px;
+    padding: 40px;
+    margin-right: 50px;
+    position: absolute;
+}
+
+div#image {
+    position: right;
+    margin-left: 23cm;
+    margin-right: 40cm;
+    margin-bottom: 10cm;
+    margin-top: -7cm;
+    padding: -30cm;
+    border-radius: 20%;
+}
+
+div#explore {
+    position: absolute;
+    font-size: 2em;
+    position: absolute;
+    left: 15px;
+    padding: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+   
+   
+}
+div#paragraphe{
+    padding: 1.5cm;
+}
+div#aboutus{
+margin-top: 15cm;
+}
