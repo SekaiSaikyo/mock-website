@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Alexandria&display=swap');
+
+* {
+    margin: 0;
+    border: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Alexandria,'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+#links {
+    position: absolute;
+    right: 15px;
+    padding: 20px;
+    font-size: 1.3em;
+}
+
+.img {
+    width: 250px;
+    padding: 30px;
+    margin-right: 50px;
+    position: relative;
+  
+}
+
+nav {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+a{
+    text-decoration: none;
+    color: white;
+    font-size: 0.6em;
+    letter-spacing: 1px;
+    font-weight: bold;
+    display: inline-flex;
+    background-color: black;
+    margin: 15px;
+    padding:0.9em 2em;
+    border-radius: 50px;
+    align-items: center;
+    justify-content: center;
+}
+
+p {
+    text-align: left;
+    padding: 0px;
+    font-size: 5em;
+    font-weight: 700;
+
+}
+
+.photo {
+    width: 400px;
+    /* clip-path: inset(0px 60px 0px 60px); */
+    padding: 0px;
+    margin-right: 20px;
+    position: absolute;
+    border-radius: 10%;
+    box-shadow: 0 0 5em 1em rgba(27,166,254,0.4);
+}
+
+#image {
+    position: right;
+    margin-left: 23cm;
+    margin-right: 40cm;
+    margin-bottom: 10cm;
+    margin-top: -7cm;
+    padding: -30cm;
+}
+
+#explore {
+    position: relative;
+    top: 60px;
+    left: 0px;
+    padding: 20px;
+    font-size: 1.5em;
+}
+#paragraphe{
+    padding: 1.5cm;
+}
+#aboutus{
+    margin-top: 15cm;
+}
