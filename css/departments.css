@@ -1,10 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Alexandria&display=swap');
-:root{
-    --darker-color:#1f2027;
-    --darker-bg-color: linear-gradient(180deg, rgba(42,43,47,1) 0%, rgba(37,2,50,1) 100%);
-    --dark-color:#2a2b2f;
-    background: var(--darker-bg-color);
-    --text-color: #ffffff;
+body{
+    --bg-1st-color:#231F20;
+    --bg-2nd-color:#0A0A0B;
+    --icon-color: #4DA1A9;
+    --text-color:#F7F4F3;
+    --bg-color: linear-gradient(180deg, var(--bg-1st-color) 0%, var(--bg-2nd-color) 100%);
+    /* --dark-color:#2a2b2f; */
+    background: var(--bg-color);
     font-family:  Alexandria, sans-serif;
 }
 *{
@@ -79,12 +81,14 @@
     width: 30%;
     transition: scale 1s ease-out;
 }
+.icon svg{
+    width: 60%;
+}
 .icon:hover{
     scale: 1.2;
     cursor: pointer;
 }
 .dep{
-    /*background: var(--dark-color);*/
     width: 50vw;
     height:100vh;
     display: flex;
@@ -98,7 +102,6 @@
     text-align: start;
 }
 .staff{
-    /*background: var(--darker-color);*/
     width: 50vw;
     height:100vh;
     display: flex;
@@ -125,9 +128,10 @@
 .profile{
     margin: 1em 0em;
     width: 30%;
-    height: 30%;
+    aspect-ratio: 1/1;
+    /* height: 30%; */
     contain: style;
     border-radius: 100%;
-    border: 0;
+    border: 0.5rem solid var(--icon-color);
 }
 
