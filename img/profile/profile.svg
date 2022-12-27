@@ -1,0 +1,8 @@
+<svg viewBox="0 0 500 500" xmlns="http://www.w3.org/2000/svg">
+  <ellipse style="fill:var(--icon-color); stroke: var(--icon-color); pointer-events: none;" transform="matrix(-0.007526, 0.999972, -0.999888, -0.01863, 419.864075, -8.417118)" cx="215.655" cy="171.653" rx="92.743" ry="84.765">
+    <title>head</title>
+  </ellipse>
+  <path style="fill:var(--icon-color); stroke: var(--icon-color); pointer-events: none;" d="M 247.339 327.035 C 332.871 324.723 437.465 318.96 433.103 500 C 434.84 519.109 61.805 531.186 58.97 500 C 49.703 330.941 174.093 318.008 247.339 327.035 Z">
+    <title>body</title>
+  </path>
+</svg>

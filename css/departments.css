@@ -1,9 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Alexandria&display=swap');
 body{
-    --bg-1st-color:#231F20;
-    --bg-2nd-color:#0A0A0B;
-    --icon-color: #4DA1A9;
-    --text-color:#F7F4F3;
+    --bg-1st-color: /*#131020*/    #231f20                  ;
+    --bg-2nd-color: /*#221D23*/   #0A0A0B                   ;
+    --icon-color: /*#EF626C*/      /*#F29559*/      #4DA1A9   ;
+    --text-color: #EDF2F4     /*#F7F4F3*/                     ;
     --bg-color: linear-gradient(180deg, var(--bg-1st-color) 0%, var(--bg-2nd-color) 100%);
     /* --dark-color:#2a2b2f; */
     background: var(--bg-color);
